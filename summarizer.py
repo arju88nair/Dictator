@@ -8,6 +8,8 @@ from nltk import word_tokenize
 import heapq  
 
 # nltk.download('stopwords')
+def summarize():
+    
 
 scraped_data = urllib.request.urlopen('https://en.wikipedia.org/wiki/Artificial_intelligence')  
 article = scraped_data.read()
