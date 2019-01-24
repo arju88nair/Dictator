@@ -6,7 +6,7 @@ def transcribe():
     
     # obtain path to "english.wav" in the same folder as this script
 
-    AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "meeting.wav")
+    AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "english.wav")
     # AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "french.aiff")
     # AUDIO_FILE = path.join(path.dirname(path.realpath(__file__)), "chinese.flac")
 
